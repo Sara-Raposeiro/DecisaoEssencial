@@ -1,0 +1,69 @@
+<img src="./img/visao.png" class="img-fluid pht">
+<img src="./img/missao.png" class="img-fluid pht">
+<img src="./img/valores.png" class="img-fluid pht">
+
+&nbsp;
+
+
+<div class="container-fluid padding">
+  <div class="row padding simbolo">
+    <div class="col-md-12 col-lg-4">
+        <br>
+        <h3>A Nossa Visão</h3>
+        <p>Ser líderes e especialistas no apoio efetivo à gestão do seu negócio.</p>
+    </div>
+    <div class="col-md-12 col-lg-4">
+        <h3>A Nossa Missão</h3>
+        <p>Manter um posicionamento diferenciado através da intervenção especializada no apoio à gestão.</p>
+    </div>
+    <div class="col-md-12 col-lg-4">
+        <h3>Os Nossos Valores</h3>
+        <p>Especialização e conhecimento técnico; Rigor e Ética; Foco no Cliente; Empenho e Responsabilização.</p>
+    </div>
+    </div>
+  </div>
+  <hr>
+
+########
+  .element-right {
+    shape-outside: polygon(0 0, 0 200px, 200px 400px);
+    width: 300px;
+    height: 400px;
+    float: left;
+    opacity: .2;
+    padding-bottom: 0rem;
+  }
+
+##########
+@media (min-width:992px){
+  .triangle img {
+    min-height: 400px;
+  }
+  .text-triangle p {
+    padding-right: 2rem;
+  }
+}
+@media (min-width:768px) {
+  .triangle img {
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .text-triangle p, h3 {
+    text-align: center;
+ }
+}
+
+@media (max-width:576px) {
+  .triangle img {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .text-triangle p, h3{
+    text-align:center
+  }
+}

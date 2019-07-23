@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  max-width:100%;
+  overflow-x: hidden;
+  font-family: 'Poppins' , sans-serif;
+  color: #222;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+}
+.welcome h1 {
+  font-size: 210%;
+}
+
+
+/* Navegação */
+.navbar1 {
+  background-color: #248eff;
+  font-size: 0.8em;
+  padding: .5em;
+  align-items: left;
+}
+.navbar1-color li a{
+  color: #ffffff !important;
+}
+.navbar1-color li a:hover {
+  color: #000000 !important;
+}
+.navbar {
+  padding: .6rem;
+}
+.nav-logo {
+  max-height: 30px;
+  margin-left: 2rem;
+}
+.nav-DE {
+  max-height: 40px;
+  margin-left: 3rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1em !important;
+}
+
+/*Administração*/
+.btn-primary{
+  background-color: rgba(34, 139, 34, 0.5);
+  border: 1px solid rgba(34, 139, 34, 0.5);
+}
+.btn-primary:hover {
+  background-color: rgb(99, 190, 82, 0.7);
+  border: 1px solid rgb(99, 190, 82, 0.7);
+}
+.leadership {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.subtit {
+  font-size: 140%;
+}
+
+/*Departamentos*/
+.nome {
+  padding-top: 1rem;
+  font-size: 120%;
+}
+.p {
+  padding-top:1rem;
+}
+.width {
+  width: 50%;
+}
+.size {
+  font-size: 200%;
+}
+.contabilidade {
+  margin-bottom: -5rem;
+}
+.departamentos {
+  margin-bottom: -7rem;
+}
+.rh {
+  margin-bottom: -4rem;
+}
+
+
+/*Footer*/
+footer {
+  padding-top: .1rem;
+  padding-bottom: -1rem;
+  font-size: 80%;
+}
+
+footer a {
+  color: #dfdfdf;
+  font-size: 90%;
+}
+.h5 h5 {
+  padding-top: .3rem;
+  margin-bottom: -4rem;
+  font-size: 70%;
+}
+.logo {
+  max-width: 40%;
+  height: auto;
+}
+.social {
+  margin-top: -0.5rem;
+  margin-bottom: -2.5rem;
+}
+.height {
+  margin-bottom: -2rem;
+}
+.space {
+  margin-top: 1.5rem;
+
+}
+.social a {
+font-size: 2em;
+padding: 0.5rem;
+margin-bottom: -4rem;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-google-plus, .fa-skype {
+  color: #dfdfdf;
+}
+.fa-facebook:hover {
+  color: #3b5998;
+}
+.fa-twitter:hover {
+  color: #00aced;
+}
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+.fa-google-plus:hover {
+  color: #dd4b39;
+}
+.fa-skype:hover {
+  color: #00aff0;
+}
+
+.contact_us  {
+  background-color: #248eff
+}
+.contact_us:hover  {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #248eff;
+}
+.contact_form a:hover {
+  color: #248eff;
+}
+
+
+/*---Media Queries --*/
+@media (min-width: 1200px) {
+  section#contact .section-heading {
+    color: #fff;
+  }
+
+  /*Departamentos*/
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+@media (max-width: 992px) {
+  /*Footer*/
+  .social a {
+    font-size: 2em;
+  }
+    /*Departamentos*/
+    .seven-cols .col-md-1,
+     .seven-cols .col-sm-1,
+     .seven-cols .col-lg-1 {
+       width: 14.285714285714285714285714285714%;
+       *width: 14.285714285714285714285714285714%;
+     }
+
+}
+/*Opening Image */
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('img/team.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+}
+
+
+@media (max-width: 768px) {
+  /*Departamentos*/
+  .seven-cols .col-md-1,
+   .seven-cols .col-sm-1,
+   .seven-cols .col-lg-1  {
+     width: 100%;
+     *width: 100%;
+   }
+  }
+  /*Footer*/
+  .social a {
+    font-size: 2.5em;
+    padding: 0.3rem;
+  }
+}
+
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  /*Footer*/
+  .social a {
+    font-size: 1em;
+    padding: .1rem;
+  }
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/image1.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
