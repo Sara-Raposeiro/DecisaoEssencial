@@ -137,6 +137,12 @@ header.masthead .post-heading .subheading {font-size:30px}
 }
 
 /*Equipa*/
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 75%;
+  margin-top: .3rem;
+}
+
 #portfolio{
   background-color: #ffffff;
 }
