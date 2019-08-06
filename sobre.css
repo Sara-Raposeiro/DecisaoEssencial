@@ -141,48 +141,26 @@ header.masthead .post-heading .subheading {font-size:30px}
   margin-left: 7%;
   margin-right: 10%;
 }
-.triangle img{
-  padding-top: 10%;
-}
+
 .text-triangle hr {
     background-color: #b4b4b4;
     border: 0 none;
     color: #b4b4b4;
     height: 2px;
   }
-}
 
-  /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 1200px) {
-    .responsive {
-      max-width: 100%;
-      height: auto;
-    }
-    .text-triangle {
-      max-width: 80%;
-      text-align:center;
-    }
+  .responsive {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .responsive {
-      max-width: 20%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
-    .text-triangle {
-      max-width: 100%;
-      text-align:center;
-    }
+  .text-triangle {
+    max-width: 100%;
+    text-align:center;
   }
-
-
-
-
-
 
 
 /* Quem Somos */
