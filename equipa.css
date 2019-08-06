@@ -138,6 +138,11 @@ header.masthead .post-heading .subheading {font-size:30px}
 }
 
 /*Equipa*/
+.btn, .btn:hover {
+  border: none;
+  background: none;
+  padding-bottom: 0rem;
+}
 .welcome hr {
   border-top: 2px solid #b4b4b4;
   width: 75%;
@@ -199,6 +204,47 @@ header.masthead .post-heading .subheading {font-size:30px}
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+
+/*Modal*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close1, .close2, .close3, .close4, .close5, .close6 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover, .close1:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus, .close6:hover, .close6:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* --- */
 
 @media (max-width: 768px) {
   /*Industrias*/
