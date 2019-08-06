@@ -6,6 +6,7 @@ html, body {
   overflow-x: hidden;
   font-family: 'Poppins' , sans-serif;
   color: #222;
+  -webkit-overflow-scrolling: touch;
 }
 
 .padding {
@@ -150,29 +151,39 @@ header.masthead .post-heading .subheading {font-size:30px}
     height: 2px;
   }
 }
-/*For mobile phones*/
-.responsive {
-  max-width: 20%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.text-triangle {
-  max-width: 100%;
-  text-align:center;
-}
-/*For desktop*/
-@media screen and (min-width:600px) {
-  .responsive {
-    max-width: 100% ;
-    height: auto;
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 1200px) {
+    .responsive {
+      max-width: 100%;
+      height: auto;
+    }
+    .text-triangle {
+      max-width: 80%;
+      text-align:center;
+    }
   }
-  .text-triangle {
-    max-width: 80%;
-    text-align:center;
-  }}
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .responsive {
+      max-width: 20%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .text-triangle {
+      max-width: 100%;
+      text-align:center;
+    }
+  }
+
+
+
+
+
+
 
 /* Quem Somos */
 .welcome {
@@ -203,26 +214,11 @@ header.masthead .post-heading .subheading {font-size:30px}
 .card-body h4, p{
   text-align: center;
 }
-.card-body {
-  height: 450px;
-}
+
 .subtitle {
   font-size: 120%;
   text-decoration: underline;
   text-decoration-color: #248eff;
-}
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color: #248eff;
-}
-.carousel-indicators .active {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  border-style: solid;
-  border-color: #248eff !important;
 }
 .carousel-control-prev {
   margin-left: -100px;
