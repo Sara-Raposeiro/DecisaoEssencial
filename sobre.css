@@ -245,6 +245,9 @@ padding: 0.5rem;
 margin-bottom: -4rem;
 }
 
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-google-plus, .fa-skype {
+  color: #dfdfdf;
+}
 .fa-facebook:hover {
   color: #3b5998;
 }
@@ -260,11 +263,6 @@ margin-bottom: -4rem;
 .fa-skype:hover {
   color: #00aff0;
 }
-.fa-facebook, .fa-twitter, .fa-linkedi , .fa-google-plus , .fa-skype {
-  color: #dfdfdf;
-}
-
-
 .contact_us  {
   background-color: #248eff
 }
