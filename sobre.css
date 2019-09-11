@@ -126,14 +126,15 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
   padding:200px 0 150px;
   color:#fff
   }
+
 @media only screen and (min-width:768px) {
   header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading {
     padding:200px 0
     }
   }
 header.masthead .page-heading,header.masthead .site-heading {
-  text-align:center
-  }
+text-align: center;
+}
 header.masthead .page-heading h1,header.masthead .site-heading h1 {
   font-size:50px;
   margin-top:0
@@ -149,20 +150,20 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 @media only screen and (min-width:768px) {
 header.masthead .page-heading h1,header.masthead .site-heading h1 {
   font-size:80px
-  }
+}
 }
 header.masthead .post-heading h1 {
-font-size:35px
+  font-size:35px
 }
 header.masthead .post-heading .meta,header.masthead .post-heading .subheading {
-line-height:1.1;
-display:block
+  line-height:1.1;
+  display:block
 }
-header.masthead .post-heading .subheading
-{font-size:24px;
-font-weight:600;
-margin:10px 0 30px;
-font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+header.masthead .post-heading .subheading {
+  font-size:24px;
+  font-weight:600;
+  margin:10px 0 30px;
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
 header.masthead .post-heading .meta {
 font-size:20px;
@@ -232,23 +233,53 @@ header.masthead .post-heading .subheading {font-size:30px}
 .padding {
   padding-bottom: 2rem;
 }
+.item {
+  padding: 5%;
+}
 .card-body h4, p{
   text-align: center;
 }
-
 .subtitle {
   font-size: 120%;
   text-decoration: underline;
   text-decoration-color: #248eff;
 }
-.carousel-control-prev {
-  margin-left: -100px;
-}
-.carousel-control-next {
-  margin-right: -100px;
-}
-/**/
 
+@media (max-width: 400px) {
+  .item {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+/*Carousel controls*/
+.custom-nav {
+position: absolute;
+top: 20%;
+left: 0;
+right: 0;
+}
+
+.owl-prev, .owl-next {
+position: absolute;
+height: 100px;
+color: inherit;
+background: none;
+border: none;
+z-index: 100;}
+
+.owl-prev i, .owl-next i {
+font-size: 2.5rem;
+color: #cecece;
+}
+.owl-prev {
+left: 0;
+top: 30%;
+}
+.owl-next {
+right: 0;
+top:30%;
+}
 /**/
 
 /*Footer*/
