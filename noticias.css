@@ -103,6 +103,13 @@ display: block;
 /*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
 
 
+
+/*Calendario*/
+.calendario iframe{
+align: center;
+padding-left: 5%;
+}
+
 /*Footer*/
 footer {
   padding-top: .1rem;
@@ -163,7 +170,9 @@ margin-bottom: -4rem;
 .contact_us:hover  {
   background-color: #4fa4ff;
 }
-
+.contact_us a {
+  color:#ffffff;
+}
 
 /*---Media Queries --*/
 @media (min-width: 1200px) {
