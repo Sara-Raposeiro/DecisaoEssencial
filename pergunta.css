@@ -196,6 +196,9 @@ margin-bottom: -4rem;
 .contact_us:hover  {
   background-color: #4fa4ff;
 }
+.contact_us a {
+  color:#ffffff;
+}
 
 
 /*---Media Queries --*/
